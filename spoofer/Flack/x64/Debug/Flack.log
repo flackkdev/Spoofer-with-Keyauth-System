@@ -1,0 +1,23 @@
+﻿  network.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\format(43): warning STL4038: The contents of <format> are available only with C++20 or later.
+  trace.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\format(43): warning STL4038: The contents of <format> are available only with C++20 or later.
+C:\Users\powpo\source\repos\Flack\Flack\dont touch\core\trace.cpp(7,24): error C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\powpo\source\repos\Flack\Flack\dont touch\core\trace.cpp(8,29): error C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\powpo\source\repos\Flack\Flack\dont touch\core\trace.cpp(58,29): error C2440: '=' : impossible de convertir de 'const _Elem *' en 'LPCWSTR'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\powpo\source\repos\Flack\Flack\dont touch\core\trace.cpp(58,29): message : Les types pointés ne sont pas liés ; la conversion nécessite un reinterpret_cast, un cast de style C ou un cast de style fonction entre parenthèses.
+C:\Users\powpo\source\repos\Flack\Flack\dont touch\core\trace.cpp(67,8): error C2664: 'BOOL SHGetPathFromIDListW(LPCITEMIDLIST,LPWSTR)' : impossible de convertir l'argument 2 de 'char [260]' en 'LPWSTR'
+C:\Users\powpo\source\repos\Flack\Flack\dont touch\core\trace.cpp(67,34): message : Les types pointés ne sont pas liés ; la conversion nécessite un reinterpret_cast, un cast de style C ou un cast de style fonction entre parenthèses.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\shlobj_core.h(762,17): message : voir la déclaration de 'SHGetPathFromIDListW'
+C:\Users\powpo\source\repos\Flack\Flack\dont touch\core\trace.cpp(67,8): message : lors de la tentative de mise en correspondance de la liste des arguments '(LPITEMIDLIST, char [260])'
+C:\Users\powpo\source\repos\Flack\Flack\dont touch\core\trace.cpp(50,25): error C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\format(43): warning STL4038: The contents of <format> are available only with C++20 or later.
+  Génération de code en cours...
