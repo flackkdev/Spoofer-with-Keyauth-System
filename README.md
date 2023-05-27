@@ -4,24 +4,31 @@
 
 
 
-## Tutorial
+## How to Use
 
 Create account on https://keyauth.cc 
 
 ```bash
-Replace this in main.cpp for your aplication name , ownerid , secret
 
-
+1. Dowload Visual Studio 2022 Comunity 
+2. Download Spoofer Source Code
+3. Open Folder and Flack.sln
+4. Replace this in main.cpp for your aplication name , ownerid , secret 
 std::string name = ""; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
 std::string ownerid = ""; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
 std::string secret = ""; // app secret, the blurred text on licenses tab and other tabs
 std::string version = "1.0"; // leave alone unless you've changed version on website
 std::string url = skCrypt("https://keyauth.win/api/1.2/").decrypt(); // change if you're self-hosting
 
-If you replace this , bulid spoofer and have fun!
+5. Bulid the Spoofer and have fun!
+
+
+Video Tutorial
+
+https://streamable.com/9xnesf
 
 ```
-    
+
 ## Authors
 
 - [@flackkdev](https://www.github.com/flackkdev)
