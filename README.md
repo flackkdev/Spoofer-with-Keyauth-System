@@ -28,9 +28,6 @@ std::string url = skCrypt("https://keyauth.win/api/1.2/").decrypt(); // change i
 
 https://streamable.com/9xnesf
 
-## Authors
-
-- [@flackkdev](https://www.github.com/flackkdev)
 
 
 ## Support
